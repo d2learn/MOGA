@@ -5,6 +5,7 @@ export default defineConfig({
   title: "MOGA",
   description: "Make Opensource Great Again",
   lastUpdated: true,
+  base: '/MOGA/', // 设置站点根路径
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
