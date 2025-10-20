@@ -10,18 +10,44 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '文档', link: '/documents/quick-start/intro.md' },
-      { text: '案例', link: '/documents/cases/dstruct.md' },
-      { text: '历史记录', link: '/history/intro.md' },
       {
-        text: '社区',
+        text: '文档',
         items: [
+          { text: '关于MOGA', link: '/documents/quick-start/intro.md' },
           { text: '核心团队', link: '/documents/community/core-team.md' },
         ]
       },
+      {
+        text: '活动 / 游戏',
+        items: [
+          { text: 'MSCP | mcpp贡献者培养计划', link: '/activity/mscp/intro.md' },
+        ]
+      },
+      { text: '历史记录', link: '/history/intro.md' },
     ],
 
     sidebar: {
+      '/activity/' : [
+        { text: '[ 活动/游戏主页 ]', link: '/activity/intro.md' },
+        { 
+          text: '[ mcpp贡献者培养计划 ]',
+          items: [
+            { text: '基本介绍', link: '/activity/mscp/intro.md' },
+            { 
+              text: '活动文档',
+              items: [
+                { text: '活动地图', link: '/activity/mscp/docs/map.md' },
+                { text: '从完成第一个任务开始', link: '/activity/mscp/docs/start.md' },
+                { text: '流程结构与玩法详解', link: '/activity/mscp/docs/flowchart-details.md' },
+                { text: '申请加入活动小组(可选)', link: '/activity/mscp/docs/join-group.md' },
+              ]
+            },
+            { text: '活动记录', link: '/activity/mscp/log.md' },
+            { text: '历届通关玩家名单', link: '/activity/mscp/history.md' },
+            { text: '常见问题', link: '/activity/mscp/qa.md' },
+          ]
+        },
+      ],
       '/documents/' : [
         {
           text: '快速开始',
@@ -53,6 +79,10 @@ export default defineConfig({
           ]
         },
       ]
+    },
+
+    editLink: {
+      pattern: 'https://github.com/d2learn/moga/tree/main/docs/:path'
     },
 
     socialLinks: [
