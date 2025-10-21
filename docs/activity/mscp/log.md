@@ -43,6 +43,6 @@
 
 | Github用户名 | 主要内容 | 主要成果 | 备注 |
 | --- | --- | --- | --- |
-| [Sunrisepeak](https://github.com/Sunrisepeak) | 活动策划, 流程设计, 文档编写  | [活动看板](https://github.com/orgs/d2learn/projects/6) / [文档-PR]()  | |
+| [Sunrisepeak](https://github.com/Sunrisepeak) | 活动策划, 流程设计, 文档编写  | [活动看板](https://github.com/orgs/d2learn/projects/6) / [MSCP活动创建-PR](https://github.com/d2learn/MOGA/pull/3)  | |
 | [xxx](https://github.com/Sunrisepeak) | xxx  |  | |
 
