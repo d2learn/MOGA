@@ -2,9 +2,10 @@
 
 Make Opensource Great Again | 让开源再次伟大
 
-| [主页](https://d2learn.github.io/MOGA) - [论坛](https://forum.d2learn.org) |
+| [主页](https://d2learn.github.io/MOGA) - [论坛](https://forum.d2learn.org) - [活动看板](https://github.com/orgs/d2learn/projects/6/views/1) |
 | --- |
 | [![Deploy VitePress site to Pages](https://github.com/d2learn/MOGA/actions/workflows/deploy.yml/badge.svg)](https://github.com/d2learn/MOGA/actions/workflows/deploy.yml) |
+| 🎉 MSCP | mcpp项目学习与贡献者培养计划 预发布 - [详情页](https://d2learn.github.io/MOGA/activity/mscp/intro.html)  🎉 |
 
 ---
 
