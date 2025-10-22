@@ -24,6 +24,14 @@ export default defineConfig({
         ]
       },
       { text: '历史记录', link: '/history/intro.md' },
+      {
+        text: '社区',
+        items: [
+          { text: 'moga论坛', link: 'https://forum.d2learn.org/category/22/moga' },
+          { text: 'xlings开源工具', link: 'https://xlings.d2learn.org' },
+          { text: 'd2learn论坛', link: 'https://forum.d2learn.org' },
+        ]
+      },
     ],
 
     sidebar: {
