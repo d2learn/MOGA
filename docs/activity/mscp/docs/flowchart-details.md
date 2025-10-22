@@ -267,7 +267,7 @@ Signed-off-by: sunrisepeak <speakshen@163.com>
 > 适合有额外精力想了解一个开源项目/社区/活动怎么开发维护以及运营的同学, 当活动结束后可以进一步申请加入项目和社区核心贡献者团队...
 
 - 1 - 完成 [T0](/activity/mscp/log.md) 任务, 并在`MLine-3`提交成果到活动记录表
-- 2 - 和小组成员进行沟通, 双向确认。具体细节参考 -> [申请加入活动小组](/activity/docs/join-group.md)
+- 2 - 和小组成员进行沟通, 双向确认。具体细节参考 -> [申请加入活动小组](/activity/mscp/docs/join-group.md)
 - 3 - 添加信息 -> [活动小组成员](/activity/mscp/log.html#%E6%B4%BB%E5%8A%A8%E5%B0%8F%E7%BB%84%E6%88%90%E5%91%98)
 
 ### BLine-1 | 参与社区/活动维护和项目开发

@@ -7,10 +7,21 @@ xim = {
     }
 }
 
+local d2x_install_cmd = "xlings install"
+local d2x_build_cmd = "xlings script tools/moga-helper.lua build"
+local d2x_deploy_cmd = "xlings script tools/moga-helper.lua deploy"
+
+if is_host("windows") then
+    d2x_install_cmd = d2x_install_cmd:replace("xlings", "xlings.bat")
+    d2x_build_cmd = d2x_build_cmd:replace("xlings", "xlings.bat")
+    d2x_deploy_cmd = d2x_deploy_cmd:replace("xlings", "xlings.bat")
+end
+
 d2x = {
     commands = {
-        install = "xlings install",
+        install = d2x_install_cmd,
         run = "pnpm run docs:dev",
-        build = "pnpm run docs:build",
+        build = d2x_build_cmd,
+        deploy = d2x_deploy_cmd,
     }
 }

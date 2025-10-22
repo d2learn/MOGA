@@ -74,5 +74,5 @@
 
 - 0 - 了解小组成员的主要角色
   - 处理社区问题、审核PR、优化文档、项目开发...
-- 1 - 和小组成员进行沟通, 双向确认。具体细节参考 -> [申请加入活动小组](http://localhost:5173/MOGA/activity/docs/join-group.html)
+- 1 - 和小组成员进行沟通, 双向确认。具体细节参考 -> [申请加入活动小组](/activity/mscp/docs/join-group.html)
 - 2 - 提交信息到小组成员表
