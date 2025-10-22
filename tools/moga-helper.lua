@@ -52,6 +52,7 @@ function moga_build()
 
 end
 
+-- TODO: add nginx and certbot to xpkg
 function moga_deploy()
 
     local moga_d2learn_org_config = io.readfile(path.join(os.scriptdir(), "moga.d2learn.org"))
@@ -83,7 +84,9 @@ function moga_deploy()
     end
 
     log.info("2 - set auto-update ssl by certbot")
-    system.exec("sudo certbot --nginx -d moga.d2learn.org")
+    system.exec("sudo certbot --nginx -d moga.d2learn.org"
+        .. " --agree-tos --reinstall" -- auto-confirm
+    )
 
     log.info("3 - restart nginx")
     system.exec("sudo nginx -t")
@@ -98,7 +101,7 @@ function moga_deploy()
 end
 
 function xpkg_main(action) 
-    log.info("enter moga build script...")
+    log.info("enter moga helper script...")
     if action == "build" then
         moga_build()
     elseif action == "deploy" then
