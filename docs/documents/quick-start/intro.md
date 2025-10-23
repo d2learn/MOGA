@@ -10,3 +10,9 @@ Make Opensource Great Again | 让开源再次伟大
 
 - **问题:** 一些证明(或初步证明)有价值的开源项目, 依然因为各种原因最后逐渐消亡
 - **目标:** 探索个人/组织/社区, 如何 **可持续的开发/运营** 一个开源项目并产生价值
+
+## 社区
+
+- 交流群: `167535744`、`1065632930`
+- Github: [github.com/d2learn/moga](https://github.com/d2learn/moga)
+- moga论坛: [d2learn开源 | moga版块](https://forum.d2learn.org/category/22/moga)

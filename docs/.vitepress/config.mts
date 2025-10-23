@@ -5,7 +5,7 @@ export default defineConfig({
   title: "MOGA",
   description: "Make Opensource Great Again",
   lastUpdated: true,
-  base: '/MOGA/', // 设置站点根路径
+  base: '/', // 设置站点根路径
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -13,7 +13,7 @@ export default defineConfig({
       {
         text: '文档',
         items: [
-          { text: '关于MOGA', link: '/documents/quick-start/intro.md' },
+          { text: '基础介绍', link: '/documents/quick-start/intro.md' },
           { text: '核心团队', link: '/documents/community/core-team.md' },
         ]
       },
@@ -28,10 +28,12 @@ export default defineConfig({
         text: '社区',
         items: [
           { text: 'moga论坛', link: 'https://forum.d2learn.org/category/22/moga' },
-          { text: 'xlings开源工具', link: 'https://xlings.d2learn.org' },
+          { text: 'd2learn开源', link: 'https://github.com/d2learn' },
           { text: 'd2learn论坛', link: 'https://forum.d2learn.org' },
+          { text: 'd2learn社区', link: 'https://d2learn.org' },
         ]
       },
+      { text: '关于', link: '/documents/quick-start/intro.md' },
     ],
 
     sidebar: {

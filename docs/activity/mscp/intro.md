@@ -9,7 +9,7 @@ MSCP是一款基于[mcpp-standard](https://github.com/Sunrisepeak/mcpp-standard)
 - `游戏体量:` 100H - 200H之间
 - `标签:` 类魂系列、模拟人生、🌍Online、程序员、C++、开源、费曼学习法
 
-::: details mcpp-standard开源项目简介
+## mcpp-standard开源项目简介
 
 一个 `强调动手实践` 的 `现代C++` 入门教程项目。以现代C++的核心语言特性为基础, 开发了一套 [Book + Video + Code + X] 结构的"现代"教程。其中:
 
@@ -27,7 +27,7 @@ MSCP是一款基于[mcpp-standard](https://github.com/Sunrisepeak/mcpp-standard)
 
 项目之前也被业内媒体 [HelloGithub](https://hellogithub.com/repository/Sunrisepeak/mcpp-standard) 收录和分享过(112期)
 
-<a href="https://hellogithub.com/repository/Sunrisepeak/mcpp-standard" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=7877f7cb12e940a5a432d49c19a360df&claim_uid=aNLTSv91Awj8ruX&theme=dark" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+![](https://api.hellogithub.com/v1/widgets/recommend.svg?rid=7877f7cb12e940a5a432d49c19a360df&claim_uid=aNLTSv91Awj8ruX&theme=dark)
 
 :::
 

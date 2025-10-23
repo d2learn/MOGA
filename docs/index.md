@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 论坛交流
       link: https://forum.d2learn.org/category/22/moga
+    - theme: alt
+      text: d2learn社区
+      link: https://d2learn.org
     - theme: sponsor
       text: 📣 活动 / 游戏 =>
       link: /activity/intro.md
